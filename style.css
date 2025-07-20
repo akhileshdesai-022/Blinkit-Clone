@@ -1,0 +1,502 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    
+    
+}
+
+.navbar{
+    background-color: #f8f8f8;
+    height: 100px;
+    width: 1500px;
+    display: flex;
+    align-items: center;
+}
+
+.nav-logo{
+    width: 130px;
+    height: 100px;
+    /* border-right: 3px solid gray; */
+    
+} 
+
+.logo{
+   
+    height: 100px;
+    width: 130px;
+     background-image: url("logo.png");
+    background-size: cover;
+    border-right: 0.01px solid rgb(222, 219, 219);
+
+
+   
+
+}
+
+.address{
+    margin-left: 40px;
+    
+}
+
+.time p {
+    font-weight: 20px;
+}
+
+.search{
+    margin-left: 50px;
+
+}
+
+.searchbar{
+    height: 50px;
+    width: 650px;
+    border-radius: 12px 12px 12px 12px;
+    border: 2px solid rgb(143, 135, 135);
+    padding-left: 22px;
+    font-size: 17px;
+    background-color: rgb(226, 226, 226);
+
+}
+
+.search-icon{
+    font-size: 20px;
+}
+
+.login{
+    margin-left: 75px;
+    color: rgb(78, 76, 76);
+    font-size: 20px;
+    
+}
+
+.nav-cart{
+    height: 60px;
+    width: 120px;
+    background-color: rgb(217, 217, 217);
+    border-radius: 8px;
+    margin-left: 140px;
+    display: flex;
+    align-items: center;
+    color: white;
+    justify-content: center;
+    
+}
+
+.image-panel{
+    height: 300px;
+    width: 1400px;
+    
+    
+    
+}
+
+.image{
+    background-image: url("image.png");
+    background-size:contain;
+    background-repeat: no-repeat;
+    height: 300px;
+    width: 1400px;
+    border-radius: 12px;
+    margin-left: 58px;
+    
+}
+
+ .image-section{
+    display: flex;
+    justify-content: space-evenly;
+ }
+    
+    
+
+    
+
+
+.pharmcy{
+    background-image: url("pharmacy.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+    
+}
+
+.pet{
+    background-image: url("pet.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+}
+
+.baby{
+    background-image: url("baby.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height: 200px;
+    width: 400px;
+}
+
+
+.all-products{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10px;
+}
+
+.pan-corner{
+    background-image: url("pan.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.dairy{
+    background-image: url("dairy.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.fruits{
+    background-image: url("fruits.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+
+}
+
+.cold-drinks{
+    background-image: url("cold.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.snacks{
+    background-image: url("snacks.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.breakfast{
+    background-image: url("breakfast.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.sweet{
+    background-image: url("sweet.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.bakery{
+    background-image: url("bakery.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.tea{
+    background-image: url("tea.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.rice{
+    background-image: url("rice.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+/* new lines start here */
+
+
+.masala{
+    background-image: url("masala.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.sauces{
+    background-image: url("sauces.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.chicken{
+    background-image: url("chicken.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+
+}
+
+.pet-care{
+    background-image: url("pet-care.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.organic{
+    background-image: url("organic.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.baby-care{
+    background-image: url("baby-care.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.pharma{
+    background-image: url("pharma.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.cleaning{
+    background-image: url("cleaning.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.home{
+    background-image: url("home.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.personal{
+    background-image: url("personal.png");
+     background-size: contain;
+    background-repeat: no-repeat;
+    height:165px ;
+    width: 120px;
+}
+
+.title{
+    font-size: 25px;
+    margin-left: 85px;
+    margin-top: 24px;
+}
+
+
+.milk-img{
+    background-image: url("milk.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 140px;
+    margin-left: 19px;
+}
+
+.big-product{
+    display: flex;
+    justify-content: center;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.box1{
+    height: 300px;
+    width: 200px;
+    border: 0.1px solid gray ;
+    border-radius: 10px 10px 10px 10px ;
+    background-color: #FFFFFF;
+
+    
+}
+
+.gokul{
+    margin-top: 10px;
+    margin-left: 12px;
+}
+
+.ml{
+    margin-top: 20px;
+    color: gray;
+    margin-left: 12px;
+
+}
+
+.prize{
+    margin-top: 25px;
+    font-size: 13px;
+    margin-left: 9px;
+}
+
+.btn{
+   
+  
+    color: green;
+    background-color: #F7FFF9;
+    border-radius: 4px;
+    font-size: 12px;
+    padding: 5px;
+    width: 50px;
+    margin-right: 40px;
+    margin-top: 34px;
+    
+}
+
+.prizeandbtn{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+.gokul-img{
+    background-image: url("gokulpouch.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 140px;
+     margin-left: 19px;
+}
+
+
+
+.nutri-img{
+    background-image: url("nutripower.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 140px;
+     margin-left: 19px;
+}
+
+
+.chakote-img{
+    background-image: url("chakote.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 140px;
+     margin-left: 19px;
+}
+
+
+
+.amul-img{
+    background-image: url("amul.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 150px;
+    height: 140px;
+     margin-left: 19px;
+}
+
+.foot-panel{
+    display: flex;
+    height: 350px;
+    width: 100vw;
+    background-color: white;
+    color: black;
+    justify-content: space-around;
+    margin-top: 35px;
+    
+    align-items: center;
+    
+    
+
+    
+
+}
+
+ul a{
+    display: block;
+    text-decoration: none;
+    color: #666666;
+    margin-top: 15px;
+    margin-right: 200px;
+
+}
+
+/* h5{
+    font-size: 18px;
+    margin-bottom: 100px;
+    
+} */
+
+.useful{
+    margin-bottom: 240px;
+    font-size: 18px;
+    margin-left: px;
+    text-align: center;
+}
+
+
+.foot-panel2{
+    height: 100px;
+    width: 1200px;
+    background-color: #FCFCFC;
+    color: #666666;
+    /* background-color: aqua; */
+    margin-left: 130px;
+    display: flex;
+    justify-content: space-between;
+    
+  
+    align-items: center;
+    font-size: 15px;
+
+}
+
+.icons{
+    font-size: 23px;
+    color: black;
+    /* margin-right: 20px; */
+
+    /* margin-left: 700px; */
+  
+
+}
+
+.end{
+    color: #666666;
+    margin-left: 38px;
+    margin-bottom: 15px;
+    font-size: 15px;
+}
+
+html, body {
+  overflow-x: hidden;
+}
